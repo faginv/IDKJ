@@ -1,6 +1,6 @@
 # I don't know JavaScript
 
-This is my note for learning JavaScript thoroughly.
+This is my note for learning JavaScript thoroughly by reading [YDKJS](https://github.com/getify/You-Dont-Know-JS).
 
 ## Titles
 
