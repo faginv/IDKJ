@@ -22,3 +22,7 @@ The new Function(..) function-constructor similarly takes a string of code in it
 ##### with
 deprecated.
 The with statement creates a whole new lexical scope.
+
+
+[Scope & Closures, Chapter 1 What is Scope?](scope & closures/chapter1.md)< >
+[Scope & Closures, Chapter 3 Function vs. Block Scope](scope & closures/chapter3.md)
