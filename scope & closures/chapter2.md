@@ -1,4 +1,4 @@
-# Chaper 2: Lexical Scope
+# Chapter 2: Lexical Scope
 
 * Lexical Scope: the scope model that JavaScript employs
 * Dynamic Scope
