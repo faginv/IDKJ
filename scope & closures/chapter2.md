@@ -24,5 +24,5 @@ deprecated.
 The with statement creates a whole new lexical scope.
 
 
-[Scope & Closures, Chapter 1 What is Scope?](chapter1.md)< >
+[Scope & Closures, Chapter 1 What is Scope?](chapter1.md) < >
 [Scope & Closures, Chapter 3 Function vs. Block Scope](chapter3.md)

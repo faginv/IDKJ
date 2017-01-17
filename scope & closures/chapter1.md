@@ -35,4 +35,4 @@ Any snippet of JavaScript has to be compiled just before it's executed.
 * TypeError is that Scope resolution was successful but there was an illegal/impossible action attempted against the result.
 
 
-[Scope & Closures, Chapter 2 Lexical Scope](chapter2.md)
+[Scope & Closures, Chapter 2 Lexical Scope](chapter2.md) < >

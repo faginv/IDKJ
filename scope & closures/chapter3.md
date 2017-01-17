@@ -29,5 +29,5 @@ closures and garbage collection
 
 const
 
-[Scope & Closures, Chapter 2 Lexical Scope](chapter2.md)< >
+[Scope & Closures, Chapter 2 Lexical Scope](chapter2.md) < >
 [Scope & Closures, Chapter 4 Hoisting](chapter4.md)
