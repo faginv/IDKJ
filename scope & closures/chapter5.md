@@ -109,7 +109,7 @@ foo.awesome();
 function hello(who){
   return "let me introduce : " + who;
 }
-
+// export hello;
 module.exports = {hello};
 ```
 ```JavaScript
@@ -123,7 +123,7 @@ var hungry = "hippo";
 function awesome(){
   console.log(hello(hungry).toUpperCase());
 }
-
+export awesome;
 module.exports = {awesome};
 ```
 ```JavaScript
