@@ -123,7 +123,7 @@ var hungry = "hippo";
 function awesome(){
   console.log(hello(hungry).toUpperCase());
 }
-export awesome;
+//export awesome;
 module.exports = {awesome};
 ```
 ```JavaScript
