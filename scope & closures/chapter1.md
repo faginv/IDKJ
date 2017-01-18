@@ -34,5 +34,5 @@ Any snippet of JavaScript has to be compiled just before it's executed.
 * ReferenceError is Scope resolution-failure related.
 * TypeError is that Scope resolution was successful but there was an illegal/impossible action attempted against the result.
 
-
-[Scope & Closures, Chapter 2 Lexical Scope](chapter2.md) < >
+---
+Next: [Scope & Closures, Chapter 2 Lexical Scope](chapter2.md)

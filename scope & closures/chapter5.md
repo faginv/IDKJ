@@ -104,4 +104,62 @@ foo.awesome();
 
 #### Future Modules
 
-< > [Scope & Closures, Chapter 4 Hoisting](chapter4.md)
+```JavaScript
+/* bar.js */
+function hello(who){
+  return "let me introduce : " + who;
+}
+
+module.exports = {hello};
+```
+```JavaScript
+/* foo.js */
+
+// import hello from 'bar';
+var hello = require('./bar').hello;
+
+var hungry = "hippo";
+
+function awesome(){
+  console.log(hello(hungry).toUpperCase());
+}
+
+module.exports = {awesome};
+```
+```JavaScript
+/* script.js */
+
+// import foo from "foo";
+// import bar from "bar";
+var foo = require('./foo');
+var bar = require('./bar');
+
+console.log(bar.hello('rhino'));
+
+foo.awesome();
+```
+> "The ``import`` keyword is part of the modules feature in ECMAScript2015, along with ``export`` and a few other specifications. It is currently not implemented natively in NodeJS, even on the lastest version(v0.12.7), nor is it supported in the ES2015 friendlier fork iojs. You will need to use a transpiler to get that to work.
+> http://stackoverflow.com/questions/32346886/unexpected-reserved-word-import-in-node-js
+
+## Ways to create JavaScript modules
+http://qnimate.com/creating-javascript-modules/
+* IIFE
+  * jQuery library
+
+* CommonJS
+  * CommonJS is a non-browser JavaScript specification for creating modules. It is not available for browser JavaScript. It is mostly used in NodeJS.
+
+* AMD (Asynchronous Module Definition)
+  * a JavaScript browser specification for creating modules.
+  * need a AMD implementation library for creating and importing AMD modules.
+  * RequireJS
+
+* UMD (Universal Module Definition)
+  * a set of techniques to create modules that can be imported using CommonJS, AMD, or as IIFE.
+  * returnExports
+
+* ECMAScrit 6 modules
+
+
+---
+Previous: [Scope & Closures, Chapter 4 Hoisting](chapter4.md)

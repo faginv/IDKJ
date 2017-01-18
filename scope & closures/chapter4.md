@@ -17,5 +17,6 @@ Multiple/duplicate function declarations do override previous ones.
 
 it's best to avoid declaring functions in blocks.
 
-[Scope & Closures, Chapter 3 Function vs. Block Scope](chapter3.md) < >
-[Scope & Closures, Chapter 5 Scope Closure](chapter5.md)
+---
+Previous: [Scope & Closures, Chapter 3 Function vs. Block Scope](chapter3.md),
+Next: [Scope & Closures, Chapter 5 Scope Closure](chapter5.md)

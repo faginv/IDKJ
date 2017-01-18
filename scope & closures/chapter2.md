@@ -23,6 +23,6 @@ The new Function(..) function-constructor similarly takes a string of code in it
 deprecated.
 The with statement creates a whole new lexical scope.
 
-
-[Scope & Closures, Chapter 1 What is Scope?](chapter1.md) < >
-[Scope & Closures, Chapter 3 Function vs. Block Scope](chapter3.md)
+---
+Previous: [Scope & Closures, Chapter 1 What is Scope?](chapter1.md),
+Next: [Scope & Closures, Chapter 3 Function vs. Block Scope](chapter3.md)
