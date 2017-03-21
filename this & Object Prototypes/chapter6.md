@@ -2,4 +2,4 @@
 
 Objects being linked to other objects.
 
-<!-- Mental Models Compared -->
+<!-- Simpler Design -->
